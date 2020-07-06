@@ -4,7 +4,7 @@ const server = express();
 
 var tarefas = [
     {id:1,descricao:"Comprar Pão",finalizado:false},
-    {id:2,descricao:"Arrumar o Quarto",finalizado:true}
+    {id:2,descricao:"Arrumar a Sala",finalizado:true}
 ]
 
 // middlewares:
