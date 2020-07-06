@@ -3,9 +3,9 @@ const express = require('express');
 const server = express();
 
 var tarefas = [
-    {id:1,descricao:"Comprar Arroz",finalizado:true},
+    {id:1,descricao:"Comprar Arrozes",finalizado:true},
     {id:2,descricao:"Arrumar a Cama",finalizado:true},
-    {id:3,descricao:"Fazer Exercícios",finalizado:false}
+    {id:3,descricao:"Fazer Exercício",finalizado:false}
 ]
 
 // middlewares:
