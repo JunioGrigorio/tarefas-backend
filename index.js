@@ -23,7 +23,7 @@ server.get('/tarefa/:id', (request, response) => {
 
 server.post('/tarefa', (request, response) => { 
     const tarefa = request.body;
-    tarefas.push(tarefa);
+    tarefas.create(tarefa);
     return response.status(201).send("Tarefa inclusa com sucesso!");
 })
 
@@ -45,10 +45,8 @@ server.put('/tarefa/:id', (request, response) => {
         }
      })
 
-
     return response.send("Tarefa alterada com sucesso!");
-
-    
+ 
 })
 
 server.listen(process.env.PORT || 3000);
