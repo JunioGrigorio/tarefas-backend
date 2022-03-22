@@ -23,7 +23,7 @@ server.get('/tarefa/:id', (request, response) => {
 
 server.post('/tarefa', (request, response) => { 
     const tarefa = request.body;
-    tarefas.create(tarefa);
+    tarefas.push(tarefa);
     return response.status(201).send("Tarefa inclusa com sucesso!");
 })
 
