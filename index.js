@@ -45,11 +45,9 @@ server.put('/tarefa/:id', (request, response) => {
         }
      })
 
-<<<<<<< HEAD
+
     return response.send("Tarefa alterada com sucesso!");
-=======
-    return response.send("Tarefada alterada com sucesso!");
->>>>>>> b5da96009f3d92b6dc2ee4af8ffe652c13bf893d
+
     
 })
 
